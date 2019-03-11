@@ -16,7 +16,7 @@ import cn.roy.screenshot.IScreenShotAidlInterface;
 import cn.roy.screenshot.remote.ScreenShotService;
 
 /**
- * @Description:
+ * @Description: 截图工具
  * @Author: Roy Z
  * @Date: 2019/2/27 09:58
  * @Version: v1.0
