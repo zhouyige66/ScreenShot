@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 /**
- * @Description: 
+ * @Description: 辅助日志工具
  * @Author: Roy Z
  * @Date: 2019/2/27 10:19
  * @Version: v1.0

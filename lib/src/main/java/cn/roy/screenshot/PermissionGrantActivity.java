@@ -26,7 +26,7 @@ import cn.roy.screenshot.R;
 import cn.roy.screenshot.remote.ScreenShotServerUtil;
 
 /**
- * @Description:
+ * @Description: 截屏请求授权页面
  * @Author: Roy Z
  * @Date: 2019/2/27 10:19
  * @Version: v1.0

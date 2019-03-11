@@ -21,7 +21,8 @@ import cn.roy.screenshot.remote.ScreenShotService;
  * @Date: 2019/2/27 09:58
  * @Version: v1.0
  */
-public class ScreenShotUtil implements ServiceConnection, IScreenShot, Application.ActivityLifecycleCallbacks {
+public class ScreenShotUtil implements ServiceConnection, IScreenShot,
+        Application.ActivityLifecycleCallbacks {
     private IScreenShotAidlInterface screenShotAidlInterface = null;
     private Context applicationContext = null;
     private Activity currentActivity;
@@ -42,18 +43,6 @@ public class ScreenShotUtil implements ServiceConnection, IScreenShot, Applicati
         LogUtils.i("远程服务断开");
         screenShotAidlInterface = null;
     }
-
-//    private static ScreenShotUtil instance = null;
-//    public static ScreenShotUtil getInstance() {
-//        if (instance == null) {
-//            synchronized (ScreenShotUtil.class) {
-//                if (instance == null) {
-//                    instance = new ScreenShotUtil();
-//                }
-//            }
-//        }
-//        return instance;
-//    }
 
     /**
      * 静态内部类

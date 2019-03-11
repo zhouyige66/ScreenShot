@@ -11,7 +11,7 @@ import cn.roy.screenshot.IScreenShotAidlInterface;
 import cn.roy.screenshot.util.LogUtils;
 
 /**
- * @Description:
+ * @Description: 截屏服务（远程调用）
  * @Author: Roy Z
  * @Date: 2019/2/27 10:19
  * @Version: v1.0
