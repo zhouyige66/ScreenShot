@@ -97,6 +97,7 @@ public class PermissionGrantActivity extends AppCompatActivity {
         mScreenShotServerUtil.mRealDisplayHeight = getRealDisplayHeight();
         mScreenShotServerUtil.mStatusBarHeight = getStatusBarHeight();
         mScreenShotServerUtil.mNavigationBarHeight = getNavigationBarHeight();
+        mScreenShotServerUtil.isNavigationBarShow = isNavigationBarShow();
         mScreenShotServerUtil.initImageReader();
     }
 

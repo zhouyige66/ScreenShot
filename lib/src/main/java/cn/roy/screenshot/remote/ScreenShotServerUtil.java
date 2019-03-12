@@ -28,6 +28,7 @@ public class ScreenShotServerUtil implements IScreenShot {
     // 屏幕参数
     public int mDisplayWidth, mDisplayHeight, mScreenDensityDpi, mRealDisplayHeight,
             mStatusBarHeight, mNavigationBarHeight;
+    public boolean isNavigationBarShow = false;
     // android 5.0以上获取屏幕需要参数
     public MediaProjection mMediaProjection;
     public ImageReader mImageReader;
